@@ -1,0 +1,27 @@
+p {
+  font-family: "Arial";
+  border-bottom: 1px solid #000;
+  background: #dcfffa;
+  word-break: break-word;
+  width: 600px;
+  margin: auto;
+  padding: 1.5rem;
+  white-space: pre-wrap;
+  font-size: 1.2rem;
+}
+p input {
+  font-size: 1.2rem;
+}
+
+table {
+  font-size: 1.4rem;
+}
+table td {
+  font-family: "Arial";
+  padding-left: 0.5rem;
+}
+table td:nth-child(1) {
+  text-align: right;
+}
+
+/*# sourceMappingURL=stylesheets.css.map */

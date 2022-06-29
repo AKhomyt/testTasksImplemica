@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="stylesheets.css" rel="stylesheet"/>
+    <script src="task1/script.js" defer></script>
+    <script src="task2/script.js" defer></script>
+    <script src="task3/script.js" defer></script>
+</head>
+<body>
+<p>
+    1. If we throw out the numbers and operation signs
+    from a correctly written arithmetic expression containing
+    numbers, operation signs and opening and closing
+    parentheses, and then write the brackets remaining in
+    the expression without spaces between them, then we will
+    call the result the correct bracket expression
+    [bracket expression " (()(()))" is correct, but "()(" and "())(" are not].
+    Find the number of correct bracket expressions
+    containing N opening and N closing brackets. N is entered
+    from the keyboard. N is a non-negative integer.
+    Example:
+    N = 1 (one bracket each opening and closing) - answer 1
+    ()
+    )(
+    ))
+    ((
+    Only one correct option
+    For the entered number 2 - 2 :
+    ()()
+    (())
+    That is, only two options, when all open brackets open / close correctly.
+    And so on.
+    <label for="inputT1"></label><input id="inputT1" placeholder="..."/> <span id="resultT1"></span>
+</p>
+<p>
+    2. You are given a list of cities. Each direct connection between
+    two cities has its transportation cost (an integer bigger than 0).
+    The goal is to find the paths of minimum cost between pairs of cities.
+    Assume that the cost of each path (which is the sum of costs of
+    all direct connections belonging to this path) is at most 200000.
+    The name of a city is a string containing characters a,...,z and is
+    at most 10 characters long.
+    <img src="task2/map.svg" alt=""/>
+    <label for="inputT2"></label><input id="inputT2" placeholder="enter the path"/><span>(example: city1-city2)</span>
+<table id="resultT2"></table>
+<p>
+    3. Find the sum of the digits in the number 100! (i.e. 100 factorial)
+    {Correct answer: 648}
+    <label for="inputT3"></label><input id="inputT3" placeholder="..."/>
+    <span id="resultT3"></span>
+</p>
+</body>
+</html>
